@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Forms</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="">
+            <label for="name">Full Name</label>
+            <div class="name-container">
+                <!-- <label for="fname">First</label> -->
+                <input type="text" name="first" placeholder="First" required>
+                <!-- <label for="lname">Last</label> -->
+                <input type="text" name="last" id="" placeholder="Last" required>
+            </div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="" required>
+            <label for="feedback">Leave Us A Few Words</label>
+            <textarea name="feedback" id="feedback" cols="50" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
